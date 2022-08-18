@@ -11,6 +11,8 @@ Generate publication lists from an ADS library:
 
 5. Include one or more of above files (e.g. "py_list_pub_all.tex") by adding the following line in your overall ".tex" file
 
-\input{py_list_pub_all}
+   \input{py_list_pub_all}
 
-and the publication list will appear in the final pdf where you added this line.
+   and the publication list will appear in the final pdf where you added this line.
+   
+---- an example is provided by my own publication list as in "export-bibtex.bib".
