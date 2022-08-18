@@ -1,4 +1,4 @@
-fdir = '/Users/wenbinlu/Documents/non_research/CV_pub_list/'
+fdir = './'
 fname = 'export-bibtex.bib'
 list_savename = ['py_list_submitted.tex', 'py_list_123_published.tex',
                  'py_list_N_published.tex', 'py_list_pub_all.tex']
