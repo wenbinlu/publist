@@ -107,7 +107,7 @@ def write_item(fsave, my_last, my_first, i_paper, author_last,
     #       volume, number, eprint, adsurl)
     c_number = '%d' % i_paper
     if not refereed:  # not a refereed publication
-        c_number = '*' + c_number
+        c_number = '**' + c_number
     if t_range_mark and mark:
         fsave.write('\\item[\\textbf{' + c_number + '.}]{')
     else:
@@ -207,7 +207,7 @@ while i < Nlines:
         month = find_simple(lines, 'month = ')
         volume = find_in_brackets(lines, 'volume = ')
         number = find_in_brackets(lines, 'number = ')
-        adsurl = find_in_brackets(lines, 'adsurl = ')
+        adsurl = find_in_brackets(lines, 'url = ')
         eprint = find_in_brackets(lines, 'eprint = ')
         i_author = 0
         while i_author < len(author_last):
